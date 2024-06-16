@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="">
       <div className="flex flex-col justify-center align-middle items-center font-normal gap-2 ">
-        <h3 className="text-white font-semibold text-3xl">Contact Me </h3>
+        <h3 className="text-[#7c3aed] font-semibold text-3xl ">Contact Me </h3>
         <form
           className="bg-[#222222] text-white p-10 rounded-md flex flex-col gap-4  "
           action=""
@@ -33,7 +33,7 @@ const Contact = () => {
             name=""
             placeholder="Text"
           ></textarea>
-         
+
           <div className="flex justify-center">
             <input
               className="bg-slate-100 w-fit text-black p-3 rounded-md font-bold cursor-pointer  "
