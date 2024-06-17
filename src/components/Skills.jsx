@@ -4,9 +4,12 @@ import Github from "../assets/icons8-github.svg";
 import C from "../assets/icons8-c-programming.svg";
 import  Java from "../assets/icons8-java-logo.svg";
 import Html from "../assets/icons8-html-logo.svg";
-import CSS from "../assets/icons8-html-logo.svg";
-
-import Tailwinds from "../assets/icons8-react-native.svg";
+import CSS from "../assets/icons8-css-logo.svg";
+import ReactIcon from "../assets/icons8-react-native.svg";
+import Tailwinds from "../assets/icons8-tailwind-css.svg";
+import Js from "../assets/icons8-javascript.svg";
+import netilify from "../assets/image.png";
+import Vs from "../assets/icons8-visual-studio-code.svg";
 const Skills = () => {
   return (
     <>
@@ -16,22 +19,89 @@ const Skills = () => {
           Here are some of my skills on which I have learnt.
         </h2>
       </div>
-      <div className=" p-32 ">
-        <div className="border-[2px] border-emerald-500 rounded-md flex  justify-around">
-          <div className="">
-            <h1>Languages / Frameworks</h1>
-            <div className=" bg-slate-500">
-               <img src={C} alt="" />
-               <img src={Java} alt="" />
-               <img src={Tailwinds} alt="" />
+      <div className=" px-32 py-6 ">
+        <div className=" border-[2px] border-emerald-500 rounded-md flex backdrop-blur-m justify-around ">
+          <div className=" w-[800px]  -z-30 mt-[120px] h-[52px] bg-white blur-3xl absolute  "></div>
+          <div className=" flex p-5 flex-col items-center align-middle justify-center gap-6">
+            <h1 className="font-bold text-2xl">Languages / Frameworks</h1>
+            <div className=" grid grid-cols-3 gap-5">
+              <div className=" flex flex-col items-center align-middle justify-center">
+                <img src={C} alt="" />
+                <h1 className="text-lg flex items-center align-middle justify-center">
+                  C
+                </h1>
+              </div>
+              <div className=" flex flex-col items-center align-middle justify-center">
+                <img src={Java} alt="" />
+                <h1 className="text-lgflex items-center align-middle justify-center">
+                  Java
+                </h1>
+              </div>
+              <div className=" flex flex-col items-center align-middle justify-center">
+                <img src={Js} alt="" />
+                <h1 className="text-lg flex items-center align-middle justify-center">
+                  JavaScript
+                </h1>
+              </div>
+              <div className=" flex flex-col items-center align-middle justify-center">
+                <img src={Html} alt="" />
+
+                <h1 className="text-lg flex items-center align-middle justify-center">
+                  HTML
+                </h1>
+              </div>
+              <div className="  flex flex-col items-center align-middle justify-center">
+                <img src={CSS} alt="" />
+
+                <h1 className="text-lg flex items-center align-middle justify-center">
+                  CSS
+                </h1>
+              </div>
+              <div className=" flex flex-col items-center align-middle justify-center">
+                <img src={Tailwinds} alt="" />
+
+                <h1 className="text-lg flex items-center align-middle justify-center">
+                  Tailwindcss
+                </h1>
+              </div>
+              <div className=" animate-bounce flex flex-col items-center align-middle justify-center">
+                <img src={ReactIcon} alt="" />
+
+                <h1 className="text-lg flex items-center align-middle justify-center">
+                  React
+                </h1>
+              </div>
             </div>
           </div>
-          <div className=" bg-white     ">
-            <h1>Tools</h1>
-            <div className="">
-              <img src={Git} alt="" />
-              <img className="text-white" src={Github} alt="" />
-              <img src={Git} alt="" />
+          <div className=" flex flex-col align-middle items-center gap-6 p-5 ">
+            <h1 className="font-bold text-2xl">Tools</h1>
+            <div className="grid grid-cols-3 gap-5">
+              <div className="flex flex-col items-center align-middle justify-center">
+                <img src={Git} alt="" />
+                <h1 className="text-lg flex items-center align-middle justify-center">
+                  Git
+                </h1>
+              </div>
+              <div className="flex flex-col items-center align-middle justify-center">
+                <img className="text-white h-[50px]" src={Github} alt="" />
+                <h1 className="text-lg flex items-center align-middle justify-center">
+                  Github
+                </h1>
+              </div>
+              <div className="flex flex-col items-center align-middle justify-center">
+                <img className="text-white h-[50px]" src={netilify} alt="" />
+
+                <h1 className="text-lg flex items-center align-middle justify-center">
+                  Netlify
+                </h1>
+              </div>
+              <div className=" animate-bounce flex flex-col items-center align-middle justify-center">
+                <img className="text-white h-[50px]" src={Vs} alt="" />
+
+                <h1 className="  text-lg flex items-center align-middle justify-center">
+                  VS Code
+                </h1>
+              </div>
             </div>
           </div>
         </div>
