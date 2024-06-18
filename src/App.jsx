@@ -4,6 +4,7 @@ import Header from './components/Header.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx';
 import Skills from './components/Skills.jsx';
+import Profile from './components/Profile.jsx';
 function App() {
  const [status,setStatus]=useState(false);
  function onhandling(){
@@ -16,9 +17,14 @@ function App() {
         <div id="home" className=" fixed w-full ">
           <Header />
         </div>
-        <div className=" mt-[64px]" id="Skills">
-          <Skills />
-        </div>
+       
+          <div className=" mt-[64px] ">
+            <Profile />
+          </div>
+          <div className=" mt-[64px]" id="Skills">
+            <Skills />
+          </div>
+       
         {status ? (
           <div className="" id="contact">
             <Contact />

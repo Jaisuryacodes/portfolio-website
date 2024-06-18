@@ -3,8 +3,8 @@ import React from "react";
 const Header = () => {
   return (
     <div className="bg-[#222222]  text-white flex justify-evenly  w-full">
-      <h1 className=" bg-[#222222] text-[32px]">Js</h1>
-      <div className=" bg-[#222222] flex align-middle gap-4  py-[16px]">
+      <h1 className=" bg-[#222222] text-[#7c3aed] text-5xl">Js</h1>
+      <div className=" bg-[#222222] flex align-middle gap-4 text-xl  py-[16px]">
         <a
           href="#home"
           class="hover:underline cursor-pointer underline-offset-4"
@@ -36,6 +36,7 @@ const Header = () => {
           Contact
         </a>
       </div>
+      
     </div>
   );
 };
