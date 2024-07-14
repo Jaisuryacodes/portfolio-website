@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div className=" flex flex-col">
-        <div id="home" className=" fixed w-full ">
+        <div id="home" className="  w-full ">
           <Header />
         </div>
        
@@ -27,7 +27,7 @@ function App() {
        
         {status ? (
           <div className="" id="contact">
-            <Contact />
+            <Contact  />
           </div>
         ) : (
           <div className=""></div>

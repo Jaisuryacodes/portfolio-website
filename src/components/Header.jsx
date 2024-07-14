@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="bg-[#222222]  text-white flex justify-evenly  w-full">
       <h1 className=" bg-[#222222] text-[#7c3aed] text-5xl">Js</h1>
-      <div className=" bg-[#222222] flex align-middle gap-4 text-xl  py-[16px]">
+      <div className=" bg-[#222222] flex align-middle gap-6 text-xl  py-[16px] px-3">
         <a
           href="#home"
           class="hover:underline cursor-pointer underline-offset-4"
@@ -23,12 +23,7 @@ const Header = () => {
         >
           Projects
         </a>
-        <a
-          href="#Education"
-          class="hover:underline cursor-pointer underline-offset-4"
-        >
-          Education
-        </a>
+       
         <a
           href="#contact"
           class="hover:underline cursor-pointer underline-offset-4 "

@@ -19,8 +19,8 @@ const Skills = () => {
           Here are some of my skills on which I have learnt.
         </h2>
       </div>
-      <div className=" px-32 py-6 ">
-        <div className=" border-[2px] border-emerald-500 rounded-md flex backdrop-blur-m justify-around ">
+      <div className=" px-32 py-6 flex  items-center align-middle justify-around  ">
+        <div className=" border-[2px] w-[1000px] border-[#7c3aed] rounded-md flex backdrop-blur-m justify-around ">
           <div className=" w-[800px]  -z-30 mt-[120px] h-[52px] bg-white blur-3xl absolute  "></div>
           <div className=" flex p-5 flex-col items-center align-middle justify-center gap-6">
             <h1 className="font-bold text-2xl">Languages / Frameworks</h1>
