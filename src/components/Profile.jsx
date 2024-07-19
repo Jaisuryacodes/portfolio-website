@@ -9,7 +9,7 @@ const Profile = () => {
 
           <h1 className=" font-bold text-4xl"> My name is</h1>
 
-          <h1 className=" font-bold text-6xl p-3 text-[#7c3aed]">
+          <h1 className=" font-bold text-6xl p-3 text-[#7c3aed] cursor-pointer  hover:text-[#9c41dc]">
             {" "}
             JAISURYA S
           </h1>
@@ -21,16 +21,16 @@ const Profile = () => {
           <div className="mt-5">
             <a
               href="https://drive.google.com/file/d/166l25GHj9-7xgLL-EmW6FAmDN8i0C0yH/view"
-              className="bg-[#7c3aed] w-fit p-1 rounded-md text-3xl cursor-pointer "
+              className="bg-[#7c3aed] w-fit p-1 rounded-md text-3xl cursor-pointer  hover:text-[#7c3aed]  hover:bg-white "
             >
-              Resume.
+              𝙍𝙚𝙨𝙪𝙢𝙚.
             </a>
           </div>
         </div>
 
         <div className="cursor-pointer">
           <img
-            className="rounded-[50%]  h-[220px] border-[#7c3aed] border-[4px]"
+            className="rounded-[50%]  h-[220px] w-[210px]  border-[#7c3aed] border-[4px] hover:border-[#7f36b3] "
             src={MyPic}
           />
         </div>

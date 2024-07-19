@@ -6,7 +6,7 @@ import Footer from './components/Footer.jsx';
 import Skills from './components/Skills.jsx';
 import Profile from './components/Profile.jsx';
 function App() {
- const [status,setStatus]=useState(false);
+ const [status,setStatus]=useState(true);
  function onhandling(){
   setStatus((previous) => !previous);
  }
@@ -17,17 +17,17 @@ function App() {
         <div id="home" className="  w-full ">
           <Header />
         </div>
-       
-          <div className=" mt-[64px] ">
-            <Profile />
-          </div>
-          <div className=" mt-[64px]" id="Skills">
-            <Skills />
-          </div>
-       
+
+        <div className=" mt-[64px] ">
+          <Profile />
+        </div>
+        <div className=" mt-[64px]" id="Skills">
+          <Skills />
+        </div>
+
         {status ? (
           <div className="" id="contact">
-            <Contact  />
+            <Contact />
           </div>
         ) : (
           <div className=""></div>
@@ -37,7 +37,7 @@ function App() {
             onClick={onhandling}
             className="text-[#7c3aed] font-semibold text-3xl cursor-pointer"
           >
-            #Contact me
+            𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙢𝙚
           </h3>
 
           <Footer />
