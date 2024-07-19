@@ -16,6 +16,7 @@ const Skills = () => {
       <div className=" flex flex-col justify-center align-middle items-center">
         <h1 className="font-semibold text-3xl">Skills</h1>
         <h2 className="font-semibold text-xl text-[#7c3aed]">
+          <br />
           Here are some of my skills on which I have learnt.
         </h2>
       </div>
