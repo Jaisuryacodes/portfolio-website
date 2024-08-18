@@ -12,19 +12,18 @@ function App() {
  }
 
   return (
-    <>
-      <div className=" flex flex-col">
-        <div id="home" className="  w-full ">
-          <Header />
-        </div>
+    <div className=" flex flex-col gap-10 " id="home">
+      <div className=" fixed z-10 top-0  w-full ">
+        <Header />
+      </div>
+      <div className=" mt-[48px] md:mt-[128px] ">
+        <Profile />
+      </div>
+      <div className="  " id="Skills">
+        <Skills />
+      </div>
 
-        <div className=" mt-[64px] ">
-          <Profile />
-        </div>
-        <div className=" mt-[64px]" id="Skills">
-          <Skills />
-        </div>
-
+      <div className="">
         {status ? (
           <div className="" id="contact">
             <Contact />
@@ -32,18 +31,18 @@ function App() {
         ) : (
           <div className=""></div>
         )}
-        <div className=" bg-[#222222] mt-4 px-28 py-4 gap-4 flex flex-col  justify-start">
-          <h3
-            onClick={onhandling}
-            className="text-[#7c3aed] font-semibold text-3xl cursor-pointer"
-          >
-            𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙢𝙚
-          </h3>
-
-          <Footer />
-        </div>
       </div>
-    </>
+      <div className=" bg-[#222222] mt-4  px-[16px] md:px-28 py-4 md:gap-4 flex flex-col  justify-start">
+        <h3
+          onClick={onhandling}
+          className="text-[#7c3aed] mt-0 font-semibold text-[16px] md:text-3xl cursor-pointer"
+        >
+          Contact Me
+        </h3>
+
+        <Footer />
+      </div>
+    </div>
   );
 }
 
