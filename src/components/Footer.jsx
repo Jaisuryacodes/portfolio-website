@@ -1,11 +1,12 @@
 import React from 'react'
-
+import git from "../assets/icons8-github.svg";
+import linkedIn from "../assets/linkedin.png";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#222222]">
-        <div className="  text-justify text-[#bfdbfe]">
-          <p className="px-9">
+      <div className="bg-[#222222] flex relative  flex-col md:flex-row gap-2  justify-center align-middle items-center md:justify-around ">
+        {/* <div className="  text-justify text-[#bfdbfe] ">
+          <p className="">
             Hi, I'm a student at M. Kumarasamy College of Engineering,
             specializing in Electronics and Communication. I'm passionate about
             technology and its potential to solve real-world problems. I have
@@ -13,16 +14,16 @@ const Footer = () => {
             C,Java,HTML,CSS,JavaScript,react.js . I'm eager to learn and grow,
             and I'm always looking for new challenges.
           </p>
-        </div>
-        <div className=" flex justify-center align-middle items-center gap-11 p-4">
-          <h2 className=" cursor-pointer underline flex justify-center align-middle items-center gap-2">
+        </div> */}
+        <div className=" flex justify-center align-middle items-center gap-2  md:p-4">
+          <p className=" cursor-pointer underline flex justify-center align-middle items-center gap-2 text-[16px]    ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="size-6"
+              className="size-4 md:size-6"
             >
               <path
                 strokeLinecap="round"
@@ -31,15 +32,15 @@ const Footer = () => {
               />
             </svg>
             jaisuryasjv@gmail.com
-          </h2>
-          <h2 className=" cursor-pointer underline flex justify-center align-middle items-center gap-2">
+          </p>
+          <p className=" text-[16px]  cursor-pointer underline flex   justify-center align-middle items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="size-6"
+              className="size-4 md:size-6"
             >
               <path
                 strokeLinecap="round"
@@ -48,8 +49,22 @@ const Footer = () => {
               />
             </svg>
             +91 9952847359
-          </h2>
+          </p>
         </div>
+        <div className=" flex  gap-8 ">
+          <a href="https://github.com/Jaisuryacodes">
+            <img src={git} className=" bg-[#f6f6f7] rounded w-5 md:w-8 " />
+          </a>
+          <a href="https://www.linkedin.com/in/jaisuryas">
+            <img src={linkedIn} className=" bg-[#ffffff] rounded w-5 md:w-8 p-1" />
+          </a>
+        </div>
+        <a
+          href="#home"
+          className=" text-[#7c3aed]  text-[18px] absolute right-[-15px] md:right-[-85px] top-[-80px] md:top-[-120px] md:text-2xl p-2 bg-[#222222] rounded-md  w-[40px] h-fit font-extrabold flex justify-center align-middle items-center  hover:underline cursor-pointer underline-offset-4 "
+        >
+          ⬆
+        </a>
       </div>
     </>
   );
