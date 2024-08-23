@@ -4,17 +4,8 @@ import linkedIn from "../assets/linkedin.png";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#222222] flex relative  flex-col md:flex-row gap-2  justify-center align-middle items-center md:justify-around ">
-        {/* <div className="  text-justify text-[#bfdbfe] ">
-          <p className="">
-            Hi, I'm a student at M. Kumarasamy College of Engineering,
-            specializing in Electronics and Communication. I'm passionate about
-            technology and its potential to solve real-world problems. I have
-            strong skills in proficient in programming languages like
-            C,Java,HTML,CSS,JavaScript,react.js . I'm eager to learn and grow,
-            and I'm always looking for new challenges.
-          </p>
-        </div> */}
+      <div className="bg-[#222222] flex relative  flex-col  gap-2  justify-center align-middle items-center md:justify-around ">
+     
         <div className=" flex justify-center align-middle items-center gap-2  md:p-4">
           <p className=" cursor-pointer underline flex justify-center align-middle items-center gap-2 text-[16px]    ">
             <svg
