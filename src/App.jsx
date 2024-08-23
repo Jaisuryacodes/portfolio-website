@@ -33,12 +33,7 @@ function App() {
         )}
       </div>
       <div className=" bg-[#222222] mt-4  px-[16px] md:px-28 py-4 md:gap-4 flex flex-col  justify-start">
-        <h3
-          onClick={onhandling}
-          className="text-[#7c3aed] mt-0 font-semibold text-[16px] md:text-3xl cursor-pointer"
-        >
-          Contact Me
-        </h3>
+       
 
         <Footer />
       </div>
