@@ -3,9 +3,11 @@ import git from "../assets/icons8-github.svg";
 import linkedIn from "../assets/linkedin.png";
 const Header = () => {
   return (
-    <div className=" bg-[#222222]  w-full p-2 md:p-3 flex flex-row  md:flex align-middle justify-around items-center  gap-10 md:gap-3">
-      <h1 className="   text-[#7c3aed] hover:text-white text-[18px] md:text-xl  ">𝓙𝓪𝓲𝓼𝓾𝓻𝔂𝓪 𝓢</h1>
-      <div className="  flex align-middle gap-3 md:gap-6 text-[12px] md:text-xl  py-[1px] px-3 ">
+    <div className=" bg-[#9CA986]  w-full p-2 md:p-3 flex flex-row  md:flex align-middle justify-around items-center  gap-10 md:gap-3">
+      <h1 className="   text-[#fefefe] hover:text-white text-[18px] md:text-xl  ">
+        𝓙𝓪𝓲𝓼𝓾𝓻𝔂𝓪 𝓢
+      </h1>
+      <div className="  font-bold flex align-middle gap-3 md:gap-6 text-[12px] md:text-xl  py-[1px] px-3 ">
         <div className=" hidden md:contents ">
           <a
             href="#home"

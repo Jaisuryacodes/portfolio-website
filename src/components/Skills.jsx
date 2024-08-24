@@ -14,13 +14,15 @@ const Skills = () => {
   return (
     <>
       <div className=" flex  flex-col  justify-center align-middle items-center px-[16px]  ">
-        <h1 className="font-semibold text-[22px] md:text-3xl">Skills</h1>
-        <h2 className="font-semibold text-[16px] md:text-xl text-[#7c3aed]">
+        <h1 className="font-bold text-[22px] md:text-3xl text-black">
+          Skills
+        </h1>
+        <h2 className="font-semibold text-[16px] md:text-xl text-[#5F6F65]">
           Here are some of my skills on which I have learnt.
         </h2>
       </div>
-      <div className="px-[16px]  md:px-32 md:py-6 flex   items-center align-middle justify-around   ">
-        <div className=" border-[2px] px-12 md:w-[1000px] border-[#7c3aed] rounded-md flex flex-col md:flex-row backdrop-blur-m justify-around  mt-3 ">
+      <div className="px-[64px]  md:px-32 md:py-6 flex   items-center align-middle justify-around   ">
+        <div className=" border-[2px] px-12 md:w-[1000px] bg-[#9CA986] border-[#5F6F65] rounded-md flex flex-col md:flex-row backdrop-blur-m justify-around  mt-3 ">
           {/* <div className=" w-[250px] md:w-[800px]  -z-30 md:mt-[120px]  h-[82px] md:h-[52px] bg-white blur-3xl absolute  ml-4 "></div> */}
           <div className=" flex p-2 md:p-5 flex-col items-center align-middle justify-center gap-2 md:gap-6">
             <h1 className="font-bold text-[18px] md:text-2xl">
