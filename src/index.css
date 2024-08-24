@@ -3,8 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 body{
-  background-color: black;
-  color: white;
+  background-color: #C9DABF;
+  color: black;
   font-family: "Lora", serif;
 }
 *

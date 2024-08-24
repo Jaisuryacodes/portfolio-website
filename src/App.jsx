@@ -5,6 +5,7 @@ import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx';
 import Skills from './components/Skills.jsx';
 import Profile from './components/Profile.jsx';
+import Project from './components/Project.jsx';
 function App() {
  const [status,setStatus]=useState(true);
  function onhandling(){
@@ -22,7 +23,9 @@ function App() {
       <div className="  " id="Skills">
         <Skills />
       </div>
-
+      <div className=" px-[32px]">
+        <Project />
+      </div>
       <div className="">
         {status ? (
           <div className="" id="contact">
@@ -32,9 +35,7 @@ function App() {
           <div className=""></div>
         )}
       </div>
-      <div className=" bg-[#222222] mt-4  px-[16px] md:px-28 py-4 md:gap-4 flex flex-col  justify-start">
-       
-
+      <div className=" bg-[#9CA986] mt-4  px-[16px] md:px-28 py-4 md:gap-4 flex flex-col  justify-start">
         <Footer />
       </div>
     </div>

@@ -4,8 +4,7 @@ import linkedIn from "../assets/linkedin.png";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#222222] flex relative  flex-col  gap-2  justify-center align-middle items-center md:justify-around ">
-     
+      <div className=" flex relative  flex-col  gap-2  justify-center align-middle items-center md:justify-around ">
         <div className=" flex justify-center align-middle items-center gap-2  md:p-4">
           <p className=" cursor-pointer underline flex justify-center align-middle items-center gap-2 text-[16px]    ">
             <svg
@@ -47,12 +46,15 @@ const Footer = () => {
             <img src={git} className=" bg-[#f6f6f7] rounded w-5 md:w-8 " />
           </a>
           <a href="https://www.linkedin.com/in/jaisuryas">
-            <img src={linkedIn} className=" bg-[#ffffff] rounded w-5 md:w-8 p-1" />
+            <img
+              src={linkedIn}
+              className=" bg-[#ffffff] rounded w-5 md:w-8 p-1"
+            />
           </a>
         </div>
         <a
           href="#home"
-          className=" text-[#7c3aed]  text-[18px] absolute right-[-15px] md:right-[-85px] top-[-80px] md:top-[-120px] md:text-2xl p-2 bg-[#222222] rounded-md  w-[40px] h-fit font-extrabold flex justify-center align-middle items-center  hover:underline cursor-pointer underline-offset-4 "
+          className=" text-[#C9DABF]  text-[18px] absolute right-[-15px] md:right-[-85px] top-[-80px] md:top-[-120px] md:text-2xl p-2 bg-[#5F6F65] rounded-md  w-[40px] h-fit font-extrabold flex justify-center align-middle items-center  hover:underline cursor-pointer underline-offset-4 "
         >
           ⬆
         </a>
