@@ -23,7 +23,8 @@ function App() {
       <div className="  " id="Skills">
         <Skills />
       </div>
-      <div className=" px-[32px]">
+      <div className=" flex flex-col justify-center align-middle items-center p-10">
+        <h1 className="font-bold  text-[22px] p-2">Project</h1>
         <Project />
       </div>
       <div className="">

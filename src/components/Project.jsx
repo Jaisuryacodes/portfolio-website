@@ -2,8 +2,8 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <div className="flex-col  flex  gap-2 justify-center align-middle items-center p-3 bg-[#9CA986]     rounded-md">
-      <h1 className="font-bold  text-[22px] p-2">Project</h1>
+    <div className="flex-col  flex  gap-2 justify-center align-middle items-center p-10 bg-[#9CA986]     rounded-md">
+
       <div className="  flex   flex-col  md:flex-row  gap-4">
         <div className=" border-[2px] border-[#5F6F65] p-2 flex  flex-col gap-3  ">
           <h1 className="bg-[#5F6F65] p-2  text-white font-bold">

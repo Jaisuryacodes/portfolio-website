@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 body{
-  background-color: #C9DABF;
+  background-color: #c9dabf;
   color: black;
   font-family: "Lora", serif;
 }
