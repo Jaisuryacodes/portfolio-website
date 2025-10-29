@@ -1,5 +1,5 @@
 import React from 'react'
-import MyPic from "../assets/MyProfile.jpg";
+import MyPic from "../assets/profile.jpg";
 const Profile = () => {
   return (
     <div className="  px-[22px] md:px-[64px]   items-center  align-middle ">
@@ -22,7 +22,7 @@ const Profile = () => {
           </h1>
           <div className="mt-1 md:mt-5">
             <a
-              href="https://drive.google.com/file/d/166l25GHj9-7xgLL-EmW6FAmDN8i0C0yH/view"
+              href="https://drive.google.com/file/d/1s-8zB5jJgDvnA-F8FKuTv8hvj5UN_gyz/view?usp=sharing"
               className="bg-[#808D7C] text-white flex justify-center align-middle items-center   w-fit p-1 rounded-md text-[16px] md:text-xl cursor-pointer  transform-gpu   hover:bg-[#5F6F65]"
             >
               𝙍𝙚𝙨𝙪𝙢𝙚{" "}
